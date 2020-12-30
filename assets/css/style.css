@@ -3,8 +3,10 @@ body{
 	margin: 0px;
 }
 /*Navbar*/
-	.bg-green{
+	.color{
 		background-color: #0B877D;
+	}
+	.bg-green{
 		width: 100%;
 		z-index: 2;
 	}
@@ -24,13 +26,13 @@ body{
 		font-style: italic;
 	}
 	h1{
-		text-transform: uppercase;
 		position: relative;
 		top: 540px;
 		font-weight: 700;
 		font-style: italic;
 		font-size: 55px;
 		text-decoration: overline;
+		letter-spacing: 2px;
 	}
 /*Section Sobre mi*/
 	.primerp{
@@ -50,18 +52,48 @@ body{
 	}
 /*Mis conocimientos*/
 	.iconc{
-		color: #0B877D; 
+		color: #0B877D;
 	}
 	.btn-green{
-		color: #0B877D;
 		background: #0B877D;
+		margin-top: 20px;
 	}
 	.h2{
 		text-align: center;
 		border-bottom: 1px solid black;
+		font-weight: 700;
+		font-size: 45px;
+		letter-spacing: 2px;
+	}
+/*Modales*/
+	.imgmodal{
+		width: 460px;
+		padding: 20px 10px;
+	}
+/*Section: Trabajos*/
+	.h2mt{
+		border-bottom: 1px solid white;
+	}
+/*Formulario Typeform*/
+	#contacto{
+		height: 723px;
+	}
+
+/*Footer*/
+	footer{
+		height: 221px;
+
+	}
+	.ultimo{
+		font-size: 45px;
+		font-weight: 700;
+		font-style: italic;
+		letter-spacing: 2px;
 	}
 /*Media Query*/
 @media(min-width: 320px) and (max-width: 1000px){
+
+/*Header*/
 	header{
 		height: 567px;
 	}
@@ -82,8 +114,23 @@ body{
 		font-weight: 200;
 		font-style: italic;
 	}
+/*Section Mis conocimientos*/
+	.h2{
+		font-weight: 700;
+		font-size: 25px;
+	}
+/*Modales*/
+	.imgmodal{
+		width: 270px;
+		padding: 15px 5px;
+	}
 }
+/*Mi strabajos*/
+	.card{
+		margin: 50px 20px;
+	}
 @media(min-width: 1001px) and (max-width: 1200px){
+
 }
 @media(min-width: 1301px){
 	

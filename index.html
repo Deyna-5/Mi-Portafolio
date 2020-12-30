@@ -18,7 +18,7 @@
 </head>
 <body>
 <!--Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-green position-fixed">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-green color position-fixed">
 		<div class="container">
 	  		<a class="navbar-brand" href="#"><i class="far fa-file-code fa-lg"></i></a>
 	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,19 +70,157 @@
 			<div class="row text-center py-lg-5 mt-4">
 				<div class="iconc col-lg-4 my-4" id="modalhtml">
 					<i class="fab fa-html5 fa-8x d-block"></i>
-					<button type="button" class="btn btn-green mt-5 text-white" data-toggle="modal" data-target="#html">HTML</button>
+					<button type="button" class="btn btn-green mt-lg-5 text-white" data-toggle="modal" data-target="#html">HTML</button>
 				</div>
 				<div class="iconc col-lg-4 my-4">
 					<i class="fas fa-brush fa-8x d-block"></i>
-					<button type="button" class="btn btn-green mt-5 text-white mt-5" data-toggle="modal" data-target="#css">CSS</button>
+					<button type="button" class="btn btn-green mt-lg-5 text-white" data-toggle="modal" data-target="#css">CSS</button>
 				</div>
 				<div class="iconc col-lg-4 my-4">
 					<i class="fab fa-js fa-8x d-block"></i>
-					<button type="button" class="btn btn-green mt-5 text-white mt-5" data-toggle="modal" data-target="#javascript">Javascript</button>
+					<button type="button" class="btn btn-green mt-lg-5 text-white" data-toggle="modal" data-target="#javascript">Javascript</button>
 				</div>
 			</div>
 		</div>
 	</section>
+<!--Ventana modales-->
+	<div class="modal fade" id="html" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="staticBackdropLabel">Mi conocimiento en HTML:</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        			<img class="imgmodal" src="./assets/img/html.jpg">
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	<div class="modal fade" id="css" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="staticBackdropLabel">Mi conocimiento en CSS:</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        			<img class="imgmodal" src="./assets/img/css.jpg">
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	<div class="modal fade" id="javascript" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="staticBackdropLabel">Mi conocimiento en Javascript:</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          				<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        		 	<img class="imgmodal" src="./assets/img/javascript.jpg">
+        		 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+<!--Mis ultimos trabajos-->
+	<section class="color">
+		<div class="container py-5">
+			<h2 class="text-center text-white display-4 my-5 h2 h2mt">Mis últimos trabajos</h2>
+			<div class="row mb-lg-5">
+				<div class="card-deck">
+  					<div class="card my-md-2">
+    					<img src="./assets/img/meet_coffee.png" class="card-img-top" alt="Página web Meet and Coffee">
+    					<div class="card-body">
+      						<h5 class="card-title">Meet & Coffee</h5>
+      						<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+       					</div>
+  					</div>
+  					<div class="card my-md-2">
+					    <img src="./assets/img/iguana_page.png" class="card-img-top" alt="Página web Iguana Page">
+					    <div class="card-body">
+						    <h5 class="card-title">Iguana Page</h5>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+					    </div>
+				  </div>
+				  <div class="card my-md-2">
+				    <img src="./assets/img/suricata.png" class="card-img-top" alt="Página web Suricata">
+				    <div class="card-body">
+					    <h5 class="card-title">Suricata</h5>
+					    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<div class="row my-lg-5">
+				<div class="card-deck pb-5">
+  					<div class="card my-md-2">
+    					<img src="./assets/img/cuppon.png" class="card-img-top" alt="Página web Cuppon">
+    					<div class="card-body">
+      						<h5 class="card-title">Cuppon</h5>
+      						<p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+    					</div>
+  					</div>
+  					<div class="card my-md-2">
+					    <img src="./assets/img/ricomida.png" class="card-img-top" alt="Página web Ricomida">
+					    <div class="card-body">
+						    <h5 class="card-title">Ricomida</h5>
+						    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+					    </div>
+				  </div>
+				  <div class="card my-md-2">
+				    <img src="./assets/img/dmark.png" class="card-img-top" alt="Pagina web DMark">
+				    <div class="card-body">
+					    <h5 class="card-title">DMark</h5>
+					    <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--Formulario Typeform-->
+	<section id="contacto" class="py-5 my-5">
+		<div class="container text-center mt-4 mb-5 pt-3 pb-5">
+			<h2 class="mb-5 mt-3 pb-5 font-weight-bold display-4 h2c">Contacto</h2>
+			<p class="text-center mt-5">¿Quieres conocer más de mi?</p>
+			<a class="typeform-share button mt-5" href="https://form.typeform.com/to/CQ8nxRLy?typeform-medium=embed-snippet" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#0B877D;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-size="100" target="_blank">¡Pruébame! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+		</div>
+	</section>
+<!--Footer-->
+	<footer class="color text-center text-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 py-5 mt-4">
+					<p class="ultimo">Deyna Contreras</p>
+				</div>
+				<div class="col-lg-6 py-5 mt-4">
+					<i class="fab fa-github-square fa-4x mx-3"></i>
+					<i class="fab fa-linkedin fa-4x mx-3"></i>
+					<i class="fab fa-twitter-square fa-4x mx-3"></i>
+					<i class="fab fa-facebook-square fa-4x mx-3"></i>
+				</div>	
+			</div>	
+		</div>
+	</footer>
 <!--Jquery-->
 	<script type="text/javascript" src="./assets/js/jquery.js"></script>
 <!--Bootstrap-->

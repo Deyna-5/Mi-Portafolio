@@ -200,10 +200,7 @@ body{
 		font-size: 50px;
 	}
 }
-@media(min-width: 501px) and (max-width: 1200px){
-	body{
-		background: blue;
-	}
+@media(min-width: 501px) and (max-width: 992px){
 	h1{
 		font-size: 40px;
 	}
@@ -213,9 +210,16 @@ body{
 	#cabeza{
 		left: 0px;
 	}
-
+	.ultimo{
+		padding-top: 20px;
+	}
 }
-@media(min-width: 701px) and (max-width: 1200px){
+@media(min-width: 993px) and (max-width: 1200px){
+	.linea{
+		margin-left: 123px;
+	}
+}
+@media(min-width: 701px) and (max-width: 1201px){
 	.linea{
 		left: 270px;
 	}

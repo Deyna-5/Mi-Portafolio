@@ -32,6 +32,22 @@ body{
 		font-size: 55px;
 		text-decoration: overline;
 	}
+/*Section Sobre mi*/
+	.primerp{
+		text-align: justify;
+		color: black;
+		line-height: 45px;
+		letter-spacing: 1px;
+	}
+	.separadora1{
+		color: black;
+		width: 300px;
+	}
+	.sobremip{
+		text-align: left;
+		line-height: 38px;
+		letter-spacing: 1.50px;
+	}
 /*Media Query*/
 @media(min-width: 320px) and (max-width: 1000px){
 	header{

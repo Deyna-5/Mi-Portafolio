@@ -21,29 +21,39 @@ body{
 		text-transform: uppercase;
 		position: relative;
 		top: 525px;
-		font-size: 55px;
+		font-size: 45px;
 		font-weight: 200;
-		font-style: italic;
 	}
 	h1{
 		position: relative;
 		top: 540px;
 		font-weight: 700;
 		font-style: italic;
-		font-size: 55px;
-		text-decoration: overline;
+		font-size: 60px;
 		letter-spacing: 2px;
 	}
+	.lineadecorativa{
+		height: 1px;
+		width: 530px;
+		background: white;
+		position: relative;
+		top: 530px;
+		left: 290px;
+	}
 /*Section Sobre mi*/
+	.lineadecorativa2{
+		height: 2px;
+		width: 150px;
+		background: black;
+		position: relative;
+		left: 490px;
+		top: 20px;
+	}
 	.primerp{
 		text-align: justify;
 		color: black;
 		line-height: 45px;
 		letter-spacing: 1px;
-	}
-	.separadora1{
-		color: black;
-		width: 300px;
 	}
 	.sobremip{
 		text-align: left;
@@ -60,10 +70,16 @@ body{
 	}
 	.h2{
 		text-align: center;
-		border-bottom: 1px solid black;
 		font-weight: 700;
 		font-size: 45px;
 		letter-spacing: 2px;
+	}
+	.lineadecorativa3{
+		height: 2px;
+		width: 150px;
+		background: black;
+		position: relative;
+		left: 470px;
 	}
 /*Modales*/
 	.imgmodal{
@@ -71,18 +87,33 @@ body{
 		padding: 20px 10px;
 	}
 /*Section: Trabajos*/
-	.h2mt{
-		border-bottom: 1px solid white;
+	.lineadecorativa4{
+		height: 2px;
+		width: 150px;
+		background: white;
+		position: relative;
+		left: 470px;
+		top: -30px
 	}
 /*Formulario Typeform*/
 	#contacto{
 		height: 723px;
 	}
-
+	.lineadecorativa5{
+		height: 2px;
+		width: 150px;
+		background: black;
+		position: relative;
+		left: 480px;
+		top: -80px;
+	}
+	.ultimo1{
+		font-size: 25px;
+		letter-spacing: 1px;
+	}
 /*Footer*/
 	footer{
 		height: 221px;
-
 	}
 	.ultimo{
 		font-size: 45px;
@@ -90,19 +121,26 @@ body{
 		font-style: italic;
 		letter-spacing: 2px;
 	}
+	.icono{
+		font-size: 70px;
+	}
 /*Media Query*/
-@media(min-width: 320px) and (max-width: 1000px){
-
+@media(min-width: 320px) and (max-width: 500px){
 /*Header*/
 	header{
 		height: 567px;
 	}
+	.lineadecorativa{
+		background: white;
+		left: 18px;
+		top: 445px;
+		height: 1px;
+		width: 250px;
+	}
 	h1{
 		position: relative;
 		top: 450px;
-		text-transform: uppercase;
 		font-size:25px;
-		text-decoration: overline;
 		font-weight: 525;
 		font-style: italic;
 	}
@@ -119,19 +157,69 @@ body{
 		font-weight: 700;
 		font-size: 25px;
 	}
+	.lineadecorativa3{
+		background: black;
+		left: 90px;
+		height: 1px;
+		width: 100px;
+		top: -20px;
+	}
 /*Modales*/
 	.imgmodal{
 		width: 270px;
 		padding: 15px 5px;
 	}
-}
 /*Mi strabajos*/
 	.card{
 		margin: 50px 20px;
 	}
-@media(min-width: 1001px) and (max-width: 1200px){
+	.lineadecorativa4{
+		background: white;
+		left: 90px;
+		height: 1px;
+		width: 100px;
+		top: -30px;
+	}
+/*Contacto*/
+	.lineadecorativa5{
+		background: black;
+		left: 95px;
+		height: 1px;
+		width: 100px;
+		top: -80px;
+	}
+	.h2c{
+		font-size: 30px;
+	}
+/*Foter*/
+	.ultimo{
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	.icono{
+		font-size: 50px;
+	}
+}
+@media(min-width: 501px) and (max-width: 1200px){
+	body{
+		background: blue;
+	}
+	h1{
+		font-size: 40px;
+	}
+	.linea{
+		left: 190px;
+	}
+	#cabeza{
+		left: 0px;
+	}
 
 }
-@media(min-width: 1301px){
-	
+@media(min-width: 701px) and (max-width: 1200px){
+	.linea{
+		left: 270px;
+	}
+	#cabeza{
+		left: 80px;
+	}
 }
